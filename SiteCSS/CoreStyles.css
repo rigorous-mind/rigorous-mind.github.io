@@ -1,1 +1,13 @@
+html, body
+{
+  width:               100%;
+  min-height:          100%;
+  height:              auto;
+  background:          Black;
+}
 
+main
+{
+  max-width:           1000px;
+  width:               80%;
+}
