@@ -4,10 +4,14 @@ html, body
   min-height:          100%;
   height:              auto;
   background:          Black;
+  margin:              0;
+  padding:             0;
 }
 
 main
 {
   max-width:           1000px;
   width:               80%;
+  margin:              0 auto;
+  color:               #B9B9B9;
 }
