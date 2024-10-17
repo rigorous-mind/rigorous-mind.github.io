@@ -80,7 +80,7 @@ body
 
       > div:last-child
       {
-         font:                    "PT Sans" 24px bold !important; 
+         font:                    "PT Sans" 24px bold; 
          width:                   80%;
          text-align:              center;
          margin:                  0 auto; 
