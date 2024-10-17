@@ -1,18 +1,176 @@
+/*
+     Order Of This Blog Stylesheet: 
+
+     Starting from most generic elements to specific sections 
+     of the page one by one. 
+     When it comes to specific elements, we are moving in the 
+     following order: 
+
+     1.  Main Blog Feed Page.
+     2.  Published Posts pages. 
+     3.  Individual Blog pages whose URL contains /p/ substring. 
+     4.  Aside section of the Blog gets redefined at the very End. 
+     5.  Last Special Zone for elements misbehaving in the published
+         posts pages using [ body.item-view ] selector to target 
+         misbehaving elements and redefining their styles. 
+
+*/
+
+/*          🇵🇰          */
+
+
+/*
+    Current Issues:   Text alignment instructions are getting 
+                      repeated everywhere. 
+                      blockquote has grave, grave alignment issues.
+*/
+
 html, body
 {
-  width:               100%;
-  min-height:          100%;
-  height:              auto;
-  background:          Black;
-  margin:              0;
-  padding:             0;
+   width:                        100%;
+   background-color:             black; 
 }
 
-main
+
+body
 {
-  max-width:           970px;
-  width:               80%;
-  margin:              0 auto;
-  color:               #B9B9B9;
-  color:               rgb(190,190,190);
+   width:                        clamp(80%,100%,1000px);
+   margin:                       0 auto;
+   font-family:                  "PT Sans";
+   font-size:                    clamp(21px, 2.25vw, 25px);
+   line-height:                  clamp(32px, 3.65vw, 42px);
+   text-align:                   justify;
+   color:                        #B9B9B9;
+   hyphens:                      auto;
+   hyphenate-limit-chars:        auto 3 5;   
+
+   > header
+   {
+      height:                    clamp(235px, 125px, 265px);
+      width:                     100%;
+      padding:                   0;
+      margin-bottom:             10px;
+      background:                linear-gradient(to right, #162144 20%, 
+                                                         #152758 30%, 
+                                                         #440f3a 100%);
+
+      h1
+      {
+         font-family:             Cuprum;
+         font-size:               clamp(40px, 5.5vw, 50px);
+         font-weight:             bold;
+         text-align:              center;
+         color:                   #AFAFAF;
+         padding:                 35px 0 25px;
+         margin:                  0;
+      }
+
+      h2
+      {
+         font-size:               30px;
+         line-height:             50px;
+         color:                   #AFAFAF;
+         margin-left:             150px; 
+      }
+
+      > p 
+      {
+         display:                 none;
+      }
+
+      > div:last-child
+      {
+         font:                    "PT Sans" 24px bold !important; 
+         width:                   80%;
+         text-align:              center;
+         margin:                  0 auto; 
+      }
+
+      > nav
+      {
+         margin:                    0;
+         padding:                   0;
+         height:                    65px;
+         width:                     100%; 
+         overflow:                  hidden;
+         border-bottom:             6px Solid;
+         border-image:              linear-gradient(to right, #651B53 30%,
+                                                            #1c3e7d 100%) 1;
+
+         > li 
+         {
+            display:                inline-block;
+            list-style:             none;
+            height:                 100%;
+            width:                  auto;
+
+            > a
+            {
+               display:                   inline-block;
+               color:                     rgba(77,166,255,.85);
+               text-decoration:           none;
+               padding:                   12px 22px 10px;
+               height:                    100%;
+               font-size:                 23px;
+               font-weight:               bold;
+               -webkit-font-smoothing:    none;
+               background:                linear-gradient(to bottom, 
+                                                         #0d4f64 15%,
+                                                         #232C4E 70%); 
+               
+               &:hover, &:focus
+               {
+                  cursor:                 pointer;
+                  outline:                none;
+                  color:                  #ffff66;
+
+                  background:             linear-gradient(to bottom,
+                                                            #143a5c 25%,
+                                                            #1c4b72 55%);
+               }
+            }
+            
+            &:last-child
+            {
+               width:                    75px;
+               float:                    right;
+               background:               linear-gradient(to bottom, 
+                                                            #0d4f64 15%,
+                                                            #232C4E 70%); 
+               > a 
+               {
+                  padding:                0;
+                  margin:                 0;
+                  padding-top:            7px;
+                  padding-left:           5px;
+                  width:                  75px;
+                  height:                 65px;
+                  zoom:                   200%;
+
+                  > svg
+                  {
+                     margin:              0;
+                     padding:             0;
+                     width:               75px;
+                     height:              65px;
+                  }
+
+                  &:tooltip
+                  {
+                     font-size:              24px;
+                     font-family:            "PT Sans";
+                     padding:                6px 8px;
+                  }
+               }
+
+               &:hover
+               {
+                  background-color:          Navy;
+                  stroke:                    Yellow;
+               }
+            }
+         }
+      }
+   }
 }
+
