@@ -1,0 +1,305 @@
+main
+{
+   max-width:                   1000px;
+   width:                       90%;
+
+   > article
+   {
+      > header
+      {
+         > h1 
+         {
+            font-size:               clamp(27px, 2.85vw, 35px);
+            line-height:             clamp(35px, 5vw, 58px);
+            margin-bottom:           18px; 
+         }
+
+         > byline
+         {
+            > time:before
+            {
+               content:              "On:  ";
+            }
+
+            > author:before
+            {
+               content:              "Author:  "
+            }
+         }
+      }
+
+      h1, h2, h3, h4, h5
+      {
+         font-family:              Merriweather;
+         text-align:               left;
+         letter-spacing:           1px;
+         word-spacing:             1px;
+      }
+
+      h2
+      {
+         font-size:                 clamp(23px, 2.65vw, 31px);
+         margin:                    50px 0 15px 0;
+      }
+
+      h3
+      {
+         font-size:                    30px;
+         margin-bottom:                18px;
+         line-height:                  1.85em;
+      }
+
+      h4
+      {
+         font-size:                   28px;
+         margin-bottom:               15px;
+         line-height:                 1.85em;   
+         margin-top:                  0;
+      }
+
+      p
+      {
+         margin-top:                   0;
+         margin-bottom:                26px;   
+         font-size:                    clamp(21px, 2.35vw, 25px);
+      }
+
+      ol, ul
+      {
+         margin-left:                     24px;
+         list-style-type:                 none;
+
+         > li
+         {
+            margin-bottom:                18px;
+            position:                     relative;
+
+            > h5
+            {
+               font-family:               "PT Sans", "Open Sans";
+               margin-bottom:             12px; 
+               font-size:                 26px;
+            }
+
+            &:before
+            {
+               color:                     #e75204;
+               text-align:                right;
+               font-weight:               bold;
+               width:                     40px;
+               position:                  absolute; 
+            }
+
+            > p
+            {
+               margin-top:               12px;
+            }
+         }
+      } 
+
+      ol  
+      {
+         > li
+         {
+            counter-increment:         ListCounter;
+         }
+
+         > li:before 
+         {
+            content:                   counter(ListCounter) ".";
+            left:                      -24px;
+         }
+      }
+
+      ul 
+      {
+         > li:before 
+         {
+            content:                      "\2022";
+            left:                         -12px;
+         }
+      }
+
+      em
+      {
+         display:                      block;
+         font-weight:                  bold;
+         padding:                      0;
+         font-style:                   normal;
+      }
+
+      blockquote
+      {
+         font-family:                  Palatino;
+         font-size:                    32px;
+         font-style:                   italic;
+         line-height:                  42px;
+         color:                        rgb(190,190,190);
+         border-left:                  7px Solid rgb(65,65,65);
+         border-image:                 linear-gradient( to bottom, 
+                                                      #1F305E 20%, 
+                                                      #224C98 55%, 
+                                                      #702963 100%) 1;
+         padding:                      25px 0 25px 30px;
+         margin-left:                  30px;
+      }
+
+      figure
+      {
+         > figcaption 
+         {
+            margin-top:                30px;
+            color:                     rgb(185,185,185);
+            font-size:                 23px;
+            line-height:               1.65em;
+            width:                     90%;
+            padding:                   20px 30px 20px 40px;
+            margin-left:               30px;
+            border-left:               6px Solid rgb(65,65,65);
+            border-image:              linear-gradient( to 
+                                                   bottom,            
+                                                   #1F305E 20%, 
+                                                   #224C98 55%, 
+                                                   #702963 100%) 1;
+            > em
+            {
+               margin-right:              5px;
+            }
+         }
+      }
+
+      pre
+      {
+         font-size:                    25px;
+         font-family:                  "Courier New";
+         font-weight:                  bold;
+         line-break:                   normal;
+         white-space:                  normal;
+         -webkit-font-smoothing:       antialiased;
+         font-smooth:                  auto;
+      }
+   }
+} /*  End of Declarations Defined in the Main Section */
+
+
+/*
+      Introducing Negative Margin for the unordered list contaning 
+      single line elements following an h4.
+      
+*/
+p:has( > b:first-child:only-child ) + ul 
+{
+   margin-top:                   -15px;
+}
+
+
+.SingleLineUL > li
+{
+   margin-bottom:             12px;
+}
+
+
+.DemocraticUL > li, .DemocraticLI
+{
+   text-align:               left;
+   hyphens:                  none;
+}
+
+
+li > h4
+{
+   line-height:               1.4em;
+}
+
+
+
+/*
+      Following CSS definitions restyle and fix the unnecessary 
+      issues “they” are introducing in my About Me Page section of the 
+      blog.
+*/
+
+p[role]
+{
+   word-break:               break-all;
+}
+
+
+.svg-icon-24, .svg-icon-24-button
+{
+   cursor:						      pointer;
+   height:						      24px;
+   width:						        24px;
+   min-width:					      24px;
+}
+
+
+.flat-button
+{
+   cursor:						      pointer;
+   display:						      inline-block;
+   font-weight:				      700;
+   text-transform:			    uppercase;
+   border-radius:				    2px;
+   padding:						      8px;
+   margin:						      -8px;
+}
+
+
+/*
+         Sharing Menu Styling.
+         Following CSS declarations deal with the styling of 
+         the drop-down Sharing Menu. 
+*/
+ul[id = "SharingButton"]
+{
+   width:                     320px;
+   height:                    375px;
+   background-color:          #61281C;
+   border:                    6px Solid #555555;
+   padding-top:               0;
+
+   > li 
+   {
+      height:                       auto;
+      margin:                       0;
+      border-top:                   4px Solid #444444;
+
+      &:hover
+      {
+         background-color:          #3b1811;
+         cursor:                    pointer;
+      }
+
+      &:first-of-type
+      {
+         border-top:                none;
+      }
+
+      svg
+      {
+         left:                      25px;
+         position:                  relative;
+         top:                       5px;
+         stroke:                    #B9B9B9;
+         fill:                      #B9B9B9;
+      }
+   }
+
+   > li:first-child
+   {
+      border-top:                none;
+   }
+
+   > li:last-child
+   {
+      border-bottom:             4px solid #444444;
+   }
+
+   > li:nth-child(5)
+   {
+      border-bottom:             4px solid #444444;
+   }
+}
+
+/*   End of Drop Down Menu Styling. */
