@@ -20,7 +20,9 @@ main
          {
             > time:before
             {
-               content:              "On:  ";
+               content:              "Published On:  ";
+               display:              inline-block;
+               margin-left:          15px;
             }
 
             > author:before
