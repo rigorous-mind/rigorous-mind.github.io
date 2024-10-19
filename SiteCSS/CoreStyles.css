@@ -1,22 +1,4 @@
 
-   /*
-         Order Of This Blog Stylesheet: 
-
-         Starting from most generic elements to specific sections 
-         of the page one by one. 
-         When it comes to specific elements, we are moving in the 
-         following order: 
-
-         1.  Main Blog Feed Page.
-         2.  Published Posts pages. 
-         3.  Individual Blog pages whose URL contains /p/ substring. 
-         4.  Aside section of the Blog gets redefined at the very End. 
-         5.  Last Special Zone for elements misbehaving in the published
-            posts pages using [ body.item-view ] selector to target 
-            misbehaving elements and redefining their styles. 
-
-   */
-
    /*          🇵🇰          */
 
 
