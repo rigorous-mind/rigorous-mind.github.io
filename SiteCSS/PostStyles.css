@@ -1,7 +1,12 @@
+
+
+
+
 main
 {
-   max-width:                   1000px;
-   width:                       90%;
+   max-width:                1000px;
+   width:                    90%;
+   margin:                   0 auto;    
 
    > article
    {
@@ -66,7 +71,7 @@ main
 
       ol, ul
       {
-         margin-left:                     24px;
+         margin-left:                     18px;
          list-style-type:                 none;
 
          > li
@@ -107,7 +112,7 @@ main
          > li:before 
          {
             content:                   counter(ListCounter) ".";
-            left:                      -24px;
+            left:                      -65px;
          }
       }
 
@@ -116,7 +121,7 @@ main
          > li:before 
          {
             content:                      "\2022";
-            left:                         -12px;
+            left:                         -45px;
          }
       }
 
@@ -227,22 +232,22 @@ p[role]
 
 .svg-icon-24, .svg-icon-24-button
 {
-   cursor:						      pointer;
-   height:						      24px;
-   width:						        24px;
-   min-width:					      24px;
+   cursor:						pointer;
+   height:						24px;
+   width:						24px;
+   min-width:					24px;
 }
 
 
 .flat-button
 {
-   cursor:						      pointer;
-   display:						      inline-block;
-   font-weight:				      700;
-   text-transform:			    uppercase;
-   border-radius:				    2px;
-   padding:						      8px;
-   margin:						      -8px;
+   cursor:						pointer;
+   display:						inline-block;
+   font-weight:				700;
+   text-transform:			uppercase;
+   border-radius:				2px;
+   padding:						8px;
+   margin:						-8px;
 }
 
 
@@ -271,12 +276,28 @@ ul[id = "SharingButton"]
          cursor:                    pointer;
       }
 
-      &:first-of-type
+      :first-of-type
       {
          border-top:                none;
       }
 
-      svg
+      > span.sharing-platform-button
+      {
+         padding-top:              0px;
+      } 
+
+      .platform-sharing-text
+      {
+         display:                   inline-block;
+         width:                     75%;
+         padding:                   12px 0 15px 40px;
+         font-size:                 clamp(20px, 2.25vw, 24px);
+         line-height:               clamp(30px, 3.55vw, 40px);
+         font-weight:               bold;
+         color:                     #B9B9B9;
+      }
+      
+      & svg
       {
          left:                      25px;
          position:                  relative;
