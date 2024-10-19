@@ -1,5 +1,6 @@
 
 
+
 main
 {
    max-width:                930px;
@@ -10,6 +11,8 @@ main
    {
       > header
       {
+         margin-bottom:             20px;
+         
          > h1 
          {
             font-size:               clamp(27px, 2.85vw, 35px);
