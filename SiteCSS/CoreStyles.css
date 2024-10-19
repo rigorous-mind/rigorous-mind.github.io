@@ -34,11 +34,11 @@ html, body
 
 body
 {
-   width:                        clamp(90%,100%,1080px);
+   width:                        clamp(90%,100%,1050px);
    margin:                       0 auto;
    font-family:                  "PT Sans";
-   font-size:                    clamp(21px, 2.25vw, 25px);
-   line-height:                  clamp(32px, 3.65vw, 42px);
+   font-size:                    clamp(21px, 2.25vw, 24px);
+   line-height:                  clamp(32px, 3.65vw, 40px);
    text-align:                   justify;
    color:                        #B9B9B9;
    hyphens:                      auto;
