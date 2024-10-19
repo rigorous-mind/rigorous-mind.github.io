@@ -1,7 +1,7 @@
 
 main
 {
-   max-width:                1000px;
+   max-width:                930px;
    width:                    90%;
    margin:                   0 auto;    
 
@@ -63,7 +63,6 @@ main
       {
          margin-top:                   0;
          margin-bottom:                26px;   
-         font-size:                    clamp(21px, 2.35vw, 25px);
       }
 
       ol, ul
