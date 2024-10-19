@@ -1,4 +1,5 @@
 
+
 main
 {
    max-width:                930px;
@@ -48,40 +49,46 @@ main
 
       h3
       {
-         font-size:                    30px;
-         margin-bottom:                18px;
-         line-height:                  1.85em;
+         font-size:                 30px;
+         margin-bottom:             18px;
+         line-height:               1.85em;
       }
 
       h4
       {
-         font-size:                   28px;
-         margin-bottom:               15px;
-         line-height:                 1.85em;   
-         margin-top:                  0;
+         font-size:                 28px;
+         margin-bottom:             15px;
+         line-height:               1.85em;   
+         margin-top:                0;
       }
 
       p
       {
-         margin-top:                   0;
-         margin-bottom:                26px;   
+         margin-top:                0;
+         margin-bottom:             26px;   
+      }
+
+      a
+      {
+         text-decoration:           none;
+         color:                     #539bf9;
       }
 
       ol, ul
       {
-         margin-left:                     18px;
-         list-style-type:                 none;
+         margin-left:               18px;
+         list-style-type:           none;
 
          > li
          {
-            margin-bottom:                18px;
-            position:                     relative;
+            margin-bottom:            18px;
+            position:                 relative;
 
             > h5
             {
                font-family:               "PT Sans", "Open Sans";
                margin-bottom:             12px; 
-               font-size:                 26px;
+               font-size:                 27px;
             }
 
             &:before
