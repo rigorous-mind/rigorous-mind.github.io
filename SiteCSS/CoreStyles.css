@@ -34,7 +34,7 @@ html, body
 
 body
 {
-   width:                        clamp(80%,100%,1000px);
+   width:                        clamp(90%,100%,1080px);
    margin:                       0 auto;
    font-family:                  "PT Sans";
    font-size:                    clamp(21px, 2.25vw, 25px);
