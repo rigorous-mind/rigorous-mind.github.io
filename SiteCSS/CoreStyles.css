@@ -1,19 +1,21 @@
 
-/*          🇵🇰          */
 
 
-/*
-    Current Issues:   Text alignment instructions are getting 
-                      repeated everywhere. 
-                      blockquote has grave, grave alignment issues.
-*/
+   /*          🇵🇰          */
+
+
+   /*
+      Current Issues:   Text alignment instructions are getting 
+                        repeated everywhere. 
+                        blockquote has grave, grave alignment issues.
+   */
 
 
 @font-face 
 {
    font-family:         'Cuprum';
    font-weight:         normal;
-   src:                 url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+   src:                 url('https://fonts.googleapis.com/css2?family=Cuprum');
 }
 
 html, body
