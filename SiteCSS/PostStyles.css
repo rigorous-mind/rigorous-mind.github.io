@@ -1,6 +1,5 @@
 
 
-
 main
 {
    max-width:                910px;
@@ -28,14 +27,14 @@ main
 
             > time:before
             {
-               content:              "On:&nbsp;&nbsp;";
+               content:              "On:\u00a0\u00a0";
                display:              inline-block;
                margin-left:          15px;
             }
 
             > author:before
             {
-               content:              "By:&nbsp;&nbsp;"
+               content:              "By:\u00a0\u00a0"
             }
          }
       }
