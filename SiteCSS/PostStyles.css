@@ -30,15 +30,13 @@ main
             {
                content:              "On:";
                display:              inline-block;
-               margin:               0 10px 0 15px;
+               margin-left:          20px;
 
             }
 
             > author:before
             {
-               content:              "By:";
-               display:              inline-block;
-               margin-right:         12px;
+               content:              "By: ";
             }
          }
       }
