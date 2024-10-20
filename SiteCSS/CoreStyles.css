@@ -18,6 +18,8 @@
    src:                 url('https://fonts.googleapis.com/css2?family=Cuprum');
 }
 
+@import url(//fonts.googleapis.com/css?family=Cuprum);
+
 html, body
 {
    width:                        100%;
