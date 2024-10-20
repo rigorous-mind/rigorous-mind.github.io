@@ -15,10 +15,10 @@
 {
    font-family:         'Cuprum';
    font-weight:         normal;
-   src:                 url('https://fonts.googleapis.com/css2?family=Cuprum');
+   src:                 url("https://fonts.googleapis.com/css2?family=Cuprum");
 }
 
-@import url(//fonts.googleapis.com/css?family=Cuprum);
+@import url("https://fonts.googleapis.com/css?family=Cuprum");
 
 html, body
 {
