@@ -55,7 +55,6 @@ body
       {
          font-family:             Cuprum;
          font-size:               clamp(40px, 5.5vw, 50px);
-         font-weight:             bold;
          text-align:              center;
          color:                   #AFAFAF;
          padding:                 35px 0 25px;
