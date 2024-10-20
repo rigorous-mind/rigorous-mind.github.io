@@ -28,7 +28,7 @@ main
 
             > time:before
             {
-               content:              "On:";
+               content:              "On: ";
                display:              inline-block;
                margin-left:          20px;
 
