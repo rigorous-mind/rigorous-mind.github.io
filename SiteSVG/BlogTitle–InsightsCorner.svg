@@ -3,8 +3,8 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns = "http://www.w3.org/2000/svg"
-     viewBox = "0 0 1000 150" 
-     style = "background: Black;">
+     viewBox = "0 0 1000 150">
+  <defs>
    <g id = "InsightsSiteTitle" 
       stroke = "White" stroke-width = "2" fill = "White"
       transform = "scale(.30) translate(0,-650)">
@@ -194,5 +194,5 @@
                             1413.57,215.50 1398,151.00" 
                   stroke-width = "4" stroke = "Black" fill = "black" />
    </g>
-  
+  </defs>
 </svg>
