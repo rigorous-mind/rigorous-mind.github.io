@@ -5,8 +5,7 @@
 <svg xmlns = "http://www.w3.org/2000/svg"
      viewBox = "0 0 1000 150" 
      style = "background: Black;">
- <defs>
-   <g id = "InsightsSiteTitle" 
+  <g id = "InsightsSiteTitle" 
       stroke = "White" stroke-width = "2" fill = "White"
       transform = "scale(.30) translate(0,-650)">
          <path id = "LetterICapital"
@@ -195,5 +194,4 @@
                             1413.57,215.50 1398,151.00" 
                   stroke-width = "4" stroke = "Black" fill = "black" />
    </g>
- </defs>
 </svg>
