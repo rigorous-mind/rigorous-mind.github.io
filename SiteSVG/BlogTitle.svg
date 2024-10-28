@@ -3,7 +3,7 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns = "http://www.w3.org/2000/svg"
-     viewBox = "0 0 1500 100" style = "background: black;">
+     viewBox = "0 0 1000 100" style = "background: black;">
   
    <g id = "InsightsBlogTitle" 
       stroke = "White" stroke-width = "2" fill = "White"
