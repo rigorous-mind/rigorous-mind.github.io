@@ -3,9 +3,9 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns = "http://www.w3.org/2000/svg"
-     viewBox = "0 0 1000 150" style = "background: black;">
+     viewBox = "0 0 1500 150" style = "background: black;">
   
-   <g id = "InsightsSiteTitle" 
+   <g id = "InsightsBlogTitle" 
       stroke = "White" stroke-width = "2" fill = "White"
       transform = "scale(.30) translate(0,-650)">
          <path id = "LetterICapital"
