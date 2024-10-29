@@ -2,7 +2,7 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns = "http://www.w3.org/2000/svg"
-     viewBox = "0 -300 1000 35" width = "1000px" height = "150px">
+     viewBox = "0 -150 1000 35" width = "1000px" height = "150px">
    <g id = "Insight" stroke = "Black" stroke-width = "2" 
       fill = "Black" transform = "scale(.45) translate(0,-650)"
       style = "background: Black;">
