@@ -2,9 +2,9 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns = "http://www.w3.org/2000/svg"
-     viewBox = "0 0 1500 150">
-   <g id = "Insight" stroke = "Red" stroke-width = "2" fill = "Red"
-        transform = "scale(.40) translate(0,-650)">
+     viewBox = "0 0 1500 150" width = "1000px" height = "200px">
+   <g id = "Insight" stroke = "White" stroke-width = "2" 
+      fill = "White" transform = "scale(.45) translate(0,-650)">
 
       <path id = "LetterICapital"
             d = "M 113.50,112.50
