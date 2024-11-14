@@ -181,15 +181,6 @@ function MonitorAppClicks ( evCurr )
 }
 
 
-function MarkupCasualMail ( strUserText )
-{
-	var sarMarkedupText = MarkupMail ( strUserText );
-	sarMarkedupText.push ( "</div>" );
-	
-	return sarMarkedupText.join ( " " );
-}
-
-
 function MarkupBlogrollItem ( strUserText )
 {
 	var rxParaSeparator = /\s+(?!\S)/g;
@@ -209,7 +200,7 @@ function MarkupBlogrollItem ( strUserText )
 		 strCloseHeader	= "\n\t\t</p>\n\t</section>\t\n</article>",
        strMarkedUpItem  = "";
 
-	if ( sarBlogrollItem.length === 3 )	
+	if ( sarBlogrollItem.length > 1 )	
 	{
 		strMarkedUpItem      = strMarkupHeader + sarBlogrollItem[0]
                            + strFirstLine + strByline  
