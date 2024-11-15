@@ -1,5 +1,7 @@
 
-                     /*          🇵🇰          */
+
+
+                        /*          🇵🇰          */
 
 
 html, body
@@ -8,6 +10,11 @@ html, body
    background-color:             black; 
 }
 
+svg
+{
+   width:                        100%;
+   height:                       500px;
+}
 
 body
 {
@@ -174,12 +181,15 @@ body
                line-height:             clamp(35px, 5vw, 58px);
                margin-bottom:           15px; 
                font-family:             Bitter, 'Droid Serif';
-               
+               hyphens:                  auto;
+               hyphenate-limit-chars:   auto 3 5;   
+
                font-size:               32px;
 
                > a
                {
-                  text-decoration:           none;
+                  text-decoration:        none;
+                  color:                  #C3C3C3;   
                }
             }
 
