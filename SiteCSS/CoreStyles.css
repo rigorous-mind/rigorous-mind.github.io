@@ -41,13 +41,12 @@ body
          color:                   #AFAFAF;
          padding:                 35px 0 25px;
          margin:                  0; 
-
-         > svg
+      
+         > img
          {
-            width:                  750px;
-            height:                 350px;
-            
+            width:                  775px;
          }
+
       }
 
       > nav
@@ -137,6 +136,7 @@ body
       }
    }
 
+  
    > main 
    {
       width:                    85%;
@@ -189,6 +189,4 @@ body
       }
    }
 }
-   
-   
    
