@@ -1,7 +1,6 @@
 
 
-
-                    /*          🇵🇰          */
+                     /*          🇵🇰          */
 
 
 html, body
@@ -36,7 +35,7 @@ body
 
       h1
       {
-         font-family:             Cuprum;
+         font-family:             Bitter, "Droid Serif";
          font-size:               clamp(40px, 5.5vw, 50px);
          text-align:              center;
          color:                   #AFAFAF;
@@ -47,28 +46,8 @@ body
          {
             width:                  100%;
             height:                 350px;
+            background:             transparent;
          }
-      }
-
-      h2
-      {
-         font-size:               30px;
-         line-height:             50px;
-         color:                   #AFAFAF;
-         margin-left:             150px; 
-      }
-
-      > p 
-      {
-         display:                 none;
-      }
-
-      > div:last-child
-      {
-         font:                    "PT Sans" 24px bold !important; 
-         width:                   80%;
-         text-align:              center;
-         margin:                  0 auto; 
       }
 
       > nav
@@ -210,5 +189,6 @@ body
       }
    }
 }
-
-
+   
+   
+   
