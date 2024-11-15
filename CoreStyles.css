@@ -4,29 +4,29 @@
 
 * 
 {
-	box-sizing:							border-box;
-	padding:								0;
-	margin:								0;
+   box-sizing:		    border-box;
+   padding:		    0;
+   margin:		    0;
 }
 
 
 html, body
 {
-	width:							100%;
-	min-height:						100%;
-	height:							100%;
-	max-height:						100%;
-   background:				      #000;	
+   width:		    100%;
+   min-height:		    100%;
+   height:		    100%;
+   max-height:		    100%;
+   background:		    #000;	
 }
 
 
 body
 {
-	width:						   85%;
-	margin:						   0 auto;
-	position:					   relative;
-	background:			         #303030;
-   overflow:                  auto;
+   width:		    85%;
+   margin:	            0 auto;
+   position:		    relative;
+   background:		    #303030;
+   overflow:                auto;
 }
 
 
@@ -38,19 +38,19 @@ body
 
 header
 {
-	height:							120px;
-	background-color:				#373737;
+   height:		   120px;
+   background-color:	   #373737;
 
    > h1
    {
-      font-size:						2.30rem;
-      line-height:					2.20rem;
-      font-family:					'PT Sans';
-      padding:							1.75rem 0 10px;
-      margin-left:               70px;
-      font-weight:					600;
-      color:							#B9B9B9;
-      cursor:                    default;
+      font-size:		2.30rem;
+      line-height:		2.20rem;
+      font-family:		'PT Sans';
+      padding:			1.75rem 0 10px;
+      margin-left:              70px;
+      font-weight:		600;
+      color:			#B9B9B9;
+      cursor:                   default;
 
       + p
       {
@@ -74,7 +74,7 @@ header
 
    + main
    {
-      height:						calc(100% - 120px);
+      height:		      calc(100% - 120px);
       width:                  90%;
       margin:                 0 auto;
       color:                  #B9B9B9;
@@ -99,83 +99,83 @@ header
 
 menu
 {
-	width:								calc(10rem);
-	height:								auto;
-	position:							absolute;
-	right:								54px;
-	border-radius:						2px;
-	border:								3px Solid #555;	
-   border-width:                 3px 4px;
+   width:		     calc(10rem);
+   height:		     auto;
+   position:		     absolute;
+   right:		     54px;
+   border-radius:	     2px;
+   border:		     3px Solid #555;	
+   border-width:             3px 4px;
 
-   font-family:                  "PT Sans";
-   font-size:							23px;
-   user-select:						none;
-   background-color:					#383838;
-   color:								#B9B9B9;
+   font-family:              "PT Sans";
+   font-size:		     23px;
+   user-select:		     none;
+   background-color:	     #383838;
+   color:		     #B9B9B9;
 
    > p
    {
-      padding:							10px 15px;
-      width:							100%;
-      text-align:						center;
-      font-family:					'PT Sans Narrow';
-      font-size:						26px;
-      border-radius:					2px;	
-      user-select:					none;
+      padding:			10px 15px;
+      width:			100%;
+      text-align:		center;
+      font-family:		'PT Sans Narrow';
+      font-size:		26px;
+      border-radius:		2px;	
+      user-select:		none;
    }
 
    &:focus
    {
-      outline:								none;
-      box-shadow:							0 0 .75rem SkyBlue;
-      border-color:                 #4E7BA4;
-      border-left-width:            5px;
+      outline:			none;
+      box-shadow:		0 0 .75rem SkyBlue;
+      border-color:             #4E7BA4;
+      border-left-width:        5px;
    }
 
    > menuitems            /* Menu => Menu Items. */ 
    {
-      display:								none;
-      position:							absolute;
-      width:								100%;
-      bottom:								calc(100% + 5px);
-      left:									-50%;
+      display:			none;
+      position:			absolute;
+      width:			100%;
+      bottom:			calc(100% + 5px);
+      left:			-50%;
 
       &:focus
       {
-         box-shadow:							0 0 .75rem SkyBlue; 
+         box-shadow:		0 0 .75rem SkyBlue; 
       }
 
       > button
       {
-         display:							 block;
-         width:							 200%;
-         background:				       #373737; 	
-         color:							 #AFAFAF;	
-         padding:							 0.95rem 1.35rem;
-         font-size:                  22px;
-         font-family:                "PT Sans";
-         line-height:                34px;   
-         border:                     3px Solid #4B4B4B;
+         display:		block;
+         width:			200%;
+         background:		#373737; 	
+         color:			#AFAFAF;	
+         padding:		0.95rem 1.35rem;
+         font-size:             22px;
+         font-family:           "PT Sans";
+         line-height:           34px;   
+         border:                3px Solid #4B4B4B;
 
          &:focus 
          {
-            border-left-color:		  Purple;
+            border-left-color:	      Purple;
             border-left-width:        5px;
-            border-radius:				  0;
-            outline:						  none;
-            box-shadow:					  inset 0 0 .75rem SkyBlue;
-            background-color:			  rgb(65,65,65);
+            border-radius:	      0;
+            outline:		      none;
+            box-shadow:		      inset 0 0 .75rem SkyBlue;
+            background-color:	      rgb(65,65,65);
          }
 
          &:first-child
          {
-            padding-top:					1rem;
-            border-top:					   3px Solid rgb(75,75,75);
+            padding-top:		1rem;
+            border-top:			3px Solid rgb(75,75,75);
          }
 
          &:last-child
          {
-            padding-bottom:			   1rem;
+            padding-bottom:		1rem;
          }
 
          > u
@@ -189,20 +189,20 @@ menu
 
 .Expanded 
 {
-	box-shadow:							0 0 .75rem Yellow;
+	box-shadow:			0 0 .75rem Yellow;
 }
 
 
 #PageCover
 {
-	position:							absolute;
-	width:								100%;
-	height:								100%;
-	background-color:					rgba(35,35,30,.92);
-	z-index:								2;
-	top:									0;
-	left:									0;
-	display:								none;
+	position:			absolute;
+	width:				100%;
+	height:				100%;
+	background-color:		rgba(35,35,30,.92);
+	z-index:			2;
+	top:				0;
+	left:				0;
+	display:			none;
 
    > p
    {
@@ -216,24 +216,24 @@ menu
 
 textarea
 {
-   font:								   24px/38px 'Courier New';
+   font:		 24px/38px 'Courier New';
 }
 
 
 #Unprocessed
 {
-	display:								block;
-	height:								75%;
-   width:                        100%;
-	background-color:					#1A1A1A;
-	margin:								35px auto 25px;
-   position:                     relative;
-	padding:								.5rem .75rem;
-	resize:								none;
-	overflow:							auto;
-	color:								#B9B9B9;
-	border-color:						#474747;
-	border-width:						4px 5px;
+   display:	         block;
+   height:		 75%;
+   width:                100%;
+   background-color:	 #1A1A1A;
+   margin:	         35px auto 25px;
+   position:             relative;
+   padding:		 .5rem .75rem;
+   resize:		 none;
+   overflow:	         auto;
+   color:		 #B9B9B9;
+   border-color:	 #474747;
+   border-width:	 4px 5px;
 
    &:focus
    {
@@ -249,28 +249,28 @@ textarea
 
 #ProcessedOutput
 {
-	width:								90%;
-	height:								82%;
-	position:							relative;
-	top:									5%;
-	left:									5%;
-	overflow:							auto;
-	z-index:								3;
-	opacity:								1;
-	background-color:					#181818;
-	color:								#AFAFAF;
-	padding:								15px 20px;
-   tab-size:                     2;
+  width:	      90%;
+  height:	      82%;
+  position:	      relative;
+  top:		      5%;
+  left:		      5%;
+  overflow:	      auto;
+  z-index:	      3;
+  opacity:	      1;
+  background-color:   #181818;
+  color:	      #AFAFAF;
+  padding:	      15px 20px;
+  tab-size:           2;
 }
 
 
 .Displayed, #PageCover.Displayed
 {
-	display:								block;
+  display:	      block;
 }
 
 
 .Hidden
 {
-   display:                      none;
+   display:           none;
 }
