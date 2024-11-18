@@ -67,12 +67,12 @@ body
          {
             height:                 100%;
             width:                  auto;
-            border-right:           6px Solid Black;
+            border-right:           5px Solid Black;
 
             > a
             {
                display:                   inline-block;
-               color:                     #66b3ff;
+               color:                     White;
                text-decoration:           none;
                padding:                   12px 22px 10px;
                height:                    100%;
