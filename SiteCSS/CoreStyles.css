@@ -115,23 +115,7 @@ body
                   padding-top:            7px;
                   padding-left:           5px;
                   width:                  75px;
-                  height:                 65px;
-                  zoom:                   200%;
-
-                  > svg
-                  {
-                     margin:              0;
-                     padding:             0;
-                     width:               75px;
-                     height:              65px;
-                  }
-
-                  &:tooltip
-                  {
-                     font-size:              24px;
-                     font-family:            "PT Sans";
-                     padding:                6px 8px;
-                  }
+                  height:                 65px;              
                }
 
                &:hover
@@ -158,13 +142,9 @@ body
 
       > article
       {
-         margin-top:            70px;
-         border-top-width:      7px;
-         border-top-style:      Solid;
-         border-image:          linear-gradient(to right,            
-                                                #1F305E 20%, 
-                                                #224C98 55%, 
-                                                #702963 100%) 1;
+
+         margin-top:            50px;
+        
          > header
          {
             margin-bottom:             12px;
@@ -207,12 +187,23 @@ body
             }
          }
       
-         > section
+         :#Blogroll
          {
-            height:                 300px;
-            overflow:               hidden;
+            margin-top:            70px;
+            border-top-width:      7px;
+            border-top-style:      Solid;
+            border-image:          linear-gradient(to right,            
+                                                #1F305E 20%, 
+                                                #224C98 55%, 
+                                                #702963 100%) 1;
+            > section
+            {
+               height:                 300px;
+               overflow:               hidden;
+            }
          }
       }
+
    }
 }
    
