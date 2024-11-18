@@ -53,6 +53,9 @@ body
       {
          margin:                    0;
          padding:                   0;
+         display:                   flex;
+         flex-flow:                 row nowrap;
+         list-style:                none;
          height:                    65px;
          width:                     100%; 
          overflow:                  hidden;
@@ -62,8 +65,6 @@ body
 
          > li 
          {
-            display:                inline-block;
-            list-style:             none;
             height:                 100%;
             width:                  auto;
 
