@@ -38,7 +38,6 @@ body
          font-family:             Bitter, "Droid Serif";
          font-size:               clamp(40px, 5.5vw, 50px);
          color:                   #AFAFAF;
-         /* padding:                 35px 0 25px; */
          margin:                  0; 
       
          > img
@@ -46,7 +45,7 @@ body
             width:                  775px;
             display:                block;
             margin:                 0 auto;
-            padding:                50px 0 0 50px;
+            padding:                35px 0 0 50px;
          }
 
       }
