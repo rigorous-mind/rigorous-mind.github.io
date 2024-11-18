@@ -30,8 +30,8 @@ body
       padding:                   0;
       margin-bottom:             10px;
       background:                linear-gradient(to right, #162144 15%,
-                                                           #192e67 55%,
-                                                           #000000 85%);
+                                                           #192e67 45%,
+                                                           #000000 100%);
      
 
       h1
