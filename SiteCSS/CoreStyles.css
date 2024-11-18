@@ -189,7 +189,7 @@ body
      
       }
 
-      :#Blogroll
+      &:#Blogroll
       {
          > article
          {
@@ -205,7 +205,7 @@ body
               height:                 300px;
               overflow:               hidden;
             }
-          }
+         }
        }
    } /* End Of Main */
 }
