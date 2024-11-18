@@ -149,7 +149,7 @@ body
       > article
       {
          margin-top:            70px;
-         border-top:            6px;
+         border-top-width:      6px;
          border-image:          linear-gradient(to right,            
                                                 #1F305E 20%, 
                                                 #224C98 55%, 
