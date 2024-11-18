@@ -187,26 +187,27 @@ body
             }
          }
      
-      }
+      } /* End of artcile block. */
 
-      &:#Blogroll
-      {
-         > article
-         {
-            margin-top:            70px;
-            border-top-width:      7px;
-            border-top-style:      Solid;
-            border-image:          linear-gradient(to right,            
+  } /* End Of Main */
+
+  > main[id = "Blogroll"]
+  {
+     > article
+     {
+        margin-top:            70px;
+        border-top-width:      7px;
+        border-top-style:      Solid;
+        border-image:          linear-gradient(to right,            
                                                #1F305E 20%, 
                                                 #224C98 55%, 
                                                 #702963 100%) 1;
-            > section
-            {
-              height:                 300px;
-              overflow:               hidden;
-            }
-         }
-       }
-   } /* End Of Main */
+        > section
+        {
+           height:                 300px;
+           overflow:               hidden;
+        }
+     } /* End of Blogroll Main block. */
+  }
 }
    
