@@ -104,6 +104,8 @@ body
             {
                width:                    125px;
                position:                 absolute;
+/*                padding:                  12px 22px 10px; */
+               text-align:               center;
                right:                    0;
                background:               linear-gradient(to bottom, 
                                                             #0d4f64 15%,
