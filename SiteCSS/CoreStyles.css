@@ -67,6 +67,7 @@ body
          {
             height:                 100%;
             width:                  auto;
+            border-right:           4px Solid Black;
 
             > a
             {
