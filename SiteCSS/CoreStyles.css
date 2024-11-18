@@ -54,6 +54,7 @@ body
       {
          margin:                    0;
          padding:                   0;
+         position:                  relative;
          display:                   flex;
          flex-flow:                 row nowrap;
          list-style:                none;
@@ -100,7 +101,8 @@ body
             &:last-child
             {
                width:                    75px;
-               float:                    right;
+               position:                 absolute;
+               right:                    0;
                background:               linear-gradient(to bottom, 
                                                             #0d4f64 15%,
                                                             #232C4E 70%); 
