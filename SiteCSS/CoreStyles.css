@@ -1,5 +1,6 @@
 
 
+               
                /*          🇵🇰          */
 
 
@@ -30,22 +31,21 @@ body
       padding:                   0;
       margin-bottom:             10px;
       background:                linear-gradient(to right, #162144 15%,
-                                                           #192e67 45%,
-                                                           #000f1a 100%);
+                                                            #192e67 45%,
+                                                            #000f1a 100%);
 
       h1
       {  
          font-family:             Bitter, "Droid Serif";
          font-size:               clamp(40px, 5.5vw, 50px);
+         text-align:              center;
          color:                   #AFAFAF;
+         padding:                 35px 0 25px;
          margin:                  0; 
       
          img
          {
             width:                  775px;
-            display:                block;
-            margin:                 65px auto 0;
-            padding-left:           75px;
          }
 
       }
@@ -54,7 +54,6 @@ body
       {
          margin:                    0;
          padding:                   0;
-         position:                  relative;
          display:                   flex;
          flex-flow:                 row nowrap;
          list-style:                none;
@@ -101,8 +100,7 @@ body
             &:last-child
             {
                width:                    75px;
-               position:                 absolute;
-               right:                    0;
+               float:                    right;
                background:               linear-gradient(to bottom, 
                                                             #0d4f64 15%,
                                                             #232C4E 70%); 
@@ -142,7 +140,7 @@ body
       }
    }
 
-  
+   
    > main 
    {
       width:                    85%;
@@ -150,6 +148,12 @@ body
 
       > article
       {
+         margin-top:            30px;
+         border-top:            6px;
+         border-image:          linear-gradient(to bottom,            
+                                                #1F305E 20%, 
+                                                #224C98 55%, 
+                                                #702963 100%) 1;
          > header
          {
             margin-bottom:             24px;
@@ -161,8 +165,7 @@ body
                line-height:             clamp(35px, 5vw, 58px);
                margin-bottom:           15px; 
                font-family:             Bitter, "Droid Serif";
-               hyphens:                 auto;
-               hyphenate-limit-chars:   auto 3 5;   
+               text-align:              left;
 
                font-size:               34px;
                line-height:             45px;
@@ -191,6 +194,12 @@ body
                   content:              "By: ";
                }
             }
+         }
+      
+         > section
+         {
+            height:                 280px;
+            overflow:               hidden;
          }
       }
    }
