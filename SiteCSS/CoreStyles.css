@@ -29,8 +29,9 @@ body
       width:                     100%;
       padding:                   0;
       margin-bottom:             10px;
-      background:                linear-gradient(to right, #162144 20%, 
-                                                           #152758 70%, 
+      background:                linear-gradient(to right, #162144 20%,
+                                                           #152758 40%,
+                                                           #152758 75%, 
                                                            #004d66 100%);
 
       h1
