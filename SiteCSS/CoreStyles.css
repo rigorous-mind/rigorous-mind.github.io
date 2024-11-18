@@ -45,7 +45,7 @@ body
       
          img
          {
-            margin-top:             40px;
+            margin-top:             35px;
             width:                  775px;
          }
 
@@ -148,6 +148,12 @@ body
    {
       width:                    85%;
       margin:                   20px auto 50px;
+
+      a
+      {
+         text-decoration:       none;
+         color:                 #539bf9;
+      }
 
       > article
       {
