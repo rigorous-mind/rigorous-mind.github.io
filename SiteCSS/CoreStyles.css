@@ -186,24 +186,27 @@ body
                }
             }
          }
-      
-         :#Blogroll
+     
+      }
+
+      :#Blogroll
+      {
+         > article
          {
             margin-top:            70px;
             border-top-width:      7px;
             border-top-style:      Solid;
             border-image:          linear-gradient(to right,            
-                                                #1F305E 20%, 
+                                               #1F305E 20%, 
                                                 #224C98 55%, 
                                                 #702963 100%) 1;
             > section
             {
-               height:                 300px;
-               overflow:               hidden;
+              height:                 300px;
+              overflow:               hidden;
             }
-         }
-      }
-
-   }
+          }
+       }
+   } /* End Of Main */
 }
    
