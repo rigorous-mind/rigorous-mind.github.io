@@ -32,10 +32,9 @@ body
       background:                linear-gradient(to right, #162144 15%,
                                                            #192e67 45%,
                                                            #003d66 100%);
-     
 
       h1
-      {
+      {  
          font-family:             Bitter, "Droid Serif";
          font-size:               clamp(40px, 5.5vw, 50px);
          text-align:              center;
