@@ -205,7 +205,7 @@ body
         &:first-child
         {
            margin-top:            45px;
-           border-top-width:      0px;
+           border-top:            none;
         }
        
         > section
