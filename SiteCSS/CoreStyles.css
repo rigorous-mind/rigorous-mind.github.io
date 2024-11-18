@@ -148,9 +148,9 @@ body
 
       > article
       {
-         margin-top:            30px;
+         margin-top:            70px;
          border-top:            6px;
-         border-image:          linear-gradient(to bottom,            
+         border-image:          linear-gradient(to right,            
                                                 #1F305E 20%, 
                                                 #224C98 55%, 
                                                 #702963 100%) 1;
