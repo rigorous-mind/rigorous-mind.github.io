@@ -192,8 +192,7 @@ function MarkupBlogrollItem ( strUserText )
    var strMarkupHeader  = "<article>\n\t\t<header>\n\t\t\t<h1>", 
 		 strFirstLine		= "\n\t\t</h1>\n\t\t<byline>" + 
                           "\n\t\t<author>\n\t\t\t" + 
-                          "<span>By<em>:</em>&nbsp;&nbsp;</span>" + 
-                          "<a href = 'https://rigorous-mind.github.io/pages/about-me.html'>Irfan Surdar</a>\n\t\t",
+                          "<a href = 'pages/about-me.html'>Irfan Surdar</a>\n\t\t",
 		 strByline		   = "</author>\n\t\t<time pubdate datetime = ''>",
 		 strHeaderEnd		= "</time>\n\t\t</byline>\n\t\t</header>",
        strLastLine      = "\n\t\t<section>\n\t\t<p>"
