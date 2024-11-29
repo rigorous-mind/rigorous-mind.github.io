@@ -210,7 +210,8 @@ body
        
         > section
         {
-           height:                 300px;
+           min-height:             265px;
+           max-height:             290px;
            overflow:               hidden;
         }
      } /* End of Blogroll Main block. */
