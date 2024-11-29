@@ -210,13 +210,19 @@ body
 
         > header
         {
-           margin-bottom:           35px;
+           margin-bottom:           30px;
           
            + section
            {
               min-height:             265px;
               max-height:             290px;
               overflow:               hidden;
+              margin-top:             0px;
+
+             > p:first-child
+             {
+                margin-top:           0px;
+             }
            }
         }
      } /* End of Blogroll Main block. */
