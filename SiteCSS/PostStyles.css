@@ -107,6 +107,7 @@ main
             &:before
             {
                color:                     #e75204;
+               color:                     #0099cc;
                text-align:                right;
                font-weight:               bold;
                width:                     40px;
