@@ -147,7 +147,7 @@ body
         
          > header
          {
-            margin-bottom:             20px;
+            margin-bottom:             35px;
             border-bottom:             3px Solid #555555;
 
             > h1 
@@ -171,7 +171,7 @@ body
             > byline
             {
                display:                 block;
-               margin-bottom:           12px;
+               margin-bottom:           18px;
 
                > time:before
                {
