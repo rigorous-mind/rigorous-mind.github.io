@@ -16,7 +16,7 @@ main
       
       > header
       {
-         margin-bottom:             24px;
+         margin-bottom:             30px;
          border-bottom:             4px Solid #424242;
 
          > h1 
@@ -24,7 +24,7 @@ main
             font-family:             Merriweather;
             font-size:               clamp(27px, 2.85vw, 35px);
             line-height:             clamp(35px, 5vw, 58px);
-            margin-bottom:           15px; 
+            margin-bottom:           12px; 
          }
 
          > byline
