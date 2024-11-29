@@ -212,7 +212,7 @@ body
         {
            margin-bottom:           30px;
           
-           > section
+           + section
            {
               min-height:             265px;
               max-height:             290px;
