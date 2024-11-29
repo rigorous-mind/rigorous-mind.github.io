@@ -147,7 +147,6 @@ main
 
       em
       {
-         display:                      block;
          font-weight:                  bold;
          padding:                      0;
          font-style:                   normal;
@@ -259,18 +258,6 @@ p[role]
 }
 
 
-.flat-button
-{
-   cursor:						pointer;
-   display:						inline-block;
-   font-weight:				700;
-   text-transform:			uppercase;
-   border-radius:				2px;
-   padding:						8px;
-   margin:						-8px;
-}
-
-
 /*
          Sharing Menu Styling.
          Following CSS declarations deal with the styling of 
@@ -301,22 +288,6 @@ ul[id = "SharingButton"]
          border-top:                none;
       }
 
-      > span.sharing-platform-button
-      {
-         padding-top:              0px;
-      } 
-
-      .platform-sharing-text
-      {
-         display:                   inline-block;
-         width:                     75%;
-         padding:                   12px 0 15px 40px;
-         font-size:                 clamp(20px, 2.25vw, 24px);
-         line-height:               clamp(30px, 3.55vw, 40px);
-         font-weight:               bold;
-         color:                     #B9B9B9;
-      }
-      
       & svg
       {
          left:                      25px;
