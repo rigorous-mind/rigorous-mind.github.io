@@ -51,33 +51,15 @@ header
       font-weight:		600;
       color:			#B9B9B9;
       cursor:                   default;
-
-      + p
-      {
-         font-size:                 24px;
-         color:                     #B9B9B9;
-         margin-left:               70px;
-         cursor:                    default;
-
-         > a
-         {
-            color:                     #67a9e1;
-            text-decoration:           none;
-
-            > u
-            {
-               font-weight:            bold;
-            }
-         }
-      }
    }
 
    + main
    {
-      height:		      calc(100% - 120px);
+      min-height:	      calc(100% - 120px);
       width:                  90%;
       margin:                 0 auto;
       color:                  #B9B9B9;
+      padding-bottom:  	      100px;
 
       > p
       {
