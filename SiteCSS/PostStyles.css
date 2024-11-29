@@ -106,13 +106,13 @@ main
 
             &:before
             {
-               color:                     #e75204;
-               color:                     #0099cc;
+             /*  color:                     #e75204; */
+             /*  color:                     #0099cc; */
+               color:                     #00ace6;
                text-align:                right;
-               font-weight:               bold;
                width:                     40px;
                position:                  absolute; 
-               top:                       5px;
+               top:                       4px;
             }
 
             > p
