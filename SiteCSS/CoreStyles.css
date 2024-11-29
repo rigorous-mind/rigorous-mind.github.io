@@ -204,15 +204,20 @@ body
                                                 #702963 100%) 1;
         &:first-child
         {
-           margin-top:            45px;
-           border-top:            none;
+           margin-top:              45px;
+           border-top:              none;
         }
-       
-        > section
+
+        > header
         {
-           min-height:             265px;
-           max-height:             290px;
-           overflow:               hidden;
+           margin-bottom:           30px;
+          
+           > section
+           {
+              min-height:             265px;
+              max-height:             290px;
+              overflow:               hidden;
+           }
         }
      } /* End of Blogroll Main block. */
   }
