@@ -26,7 +26,7 @@ var elNavList = null,
 
 function InitializeData ( evCurr )
 {
-   var elMainNav = document.getElementById ( "MainNav" );
+   var elMainNav = document.querySelector ( "header > nav" );
    elNavList = elMainNav.querySelectorAll ( "li > a" );
 }
 
