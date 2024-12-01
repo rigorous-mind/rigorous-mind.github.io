@@ -13,15 +13,15 @@ document.addEventListener (
 
 var elNavList = null,
     arrKeyMap = 
-{
-   0  : 0,
-   2  : 2,
-   3  : 3,
-   8  : 6,
-   15 : 1,
-   18 : 5,
-   19 : 4
-};
+    {
+       0  : 0,
+       2  : 2,
+       3  : 3,
+       8  : 6,
+       15 : 1,
+       18 : 5,
+       19 : 4
+    };
 
 
 function InitializeData ( evCurr )
@@ -43,13 +43,7 @@ function ManageNavInteraction ( evCurr )
          arrKeyMap[iCurrKeyCode] != null
       )
    {
-      
-      console.log ( iCurrKeyCode );
       iCurrKeyCode = arrKeyMap[iCurrKeyCode];
-      
-      console.log ( elNavList[iCurrKeyCode].href );
-      console.log ( elNavList[iCurrKeyCode].getAttribute( "href" ) );
-
       window.location = elNavList[iCurrKeyCode].href; 
    }
 }
