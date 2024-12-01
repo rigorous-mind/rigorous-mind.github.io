@@ -43,11 +43,10 @@ function ManageNavInteraction ( evCurr )
          arrKeyMap[iCurrKeyCode] != null
       )
    {
-      iCurrKeyCode = arrKeyMap[iCurrKeyCode];
-      window.location = elNavList[iCurrKeyCode].href; 
-      /*
       console.log ( elNavList[iCurrKeyCode].href );
       console.log ( elNavList[iCurrKeyCode].getAttribute( "href" ) );
-      */
+     
+      iCurrKeyCode = arrKeyMap[iCurrKeyCode];
+      window.location = elNavList[iCurrKeyCode].href; 
    }
 }
