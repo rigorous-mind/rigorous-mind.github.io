@@ -100,7 +100,7 @@ body
                }
             }
             
-            &:last-child
+            &:nth-child(6)
             {
                width:                    125px;
                position:                 absolute;
@@ -123,6 +123,11 @@ body
                   background-color:          Navy;
                   stroke:                    Yellow;
                }
+            }
+
+            &:last-child
+            {
+               display:                none !important;
             }
          }
       }
