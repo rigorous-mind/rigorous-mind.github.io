@@ -106,8 +106,6 @@ main
 
             &:before
             {
-             /*  color:                     #e75204; */
-             /*  color:                     #0099cc; */
                color:                     #00ace6;
                text-align:                right;
                width:                     40px;
@@ -161,9 +159,9 @@ main
          color:                        rgb(190,190,190);
          border-left:                  7px Solid rgb(65,65,65);
          border-image:                 linear-gradient( to bottom, 
-                                                      #1F305E 20%, 
-                                                      #224C98 55%, 
-                                                      #702963 100%) 1;
+                                                        #1F305E 20%, 
+                                                        #224C98 55%, 
+                                                        #702963 100%) 1;
          padding:                      25px 0 25px 30px;
          margin-left:                  30px;
       }
@@ -181,10 +179,10 @@ main
             margin-left:               30px;
             border-left:               6px Solid rgb(65,65,65);
             border-image:              linear-gradient( to 
-                                                   bottom,            
-                                                   #1F305E 20%, 
-                                                   #224C98 55%, 
-                                                   #702963 100%) 1;
+                                                        bottom,            
+                                                        #1F305E 20%, 
+                                                        #224C98 55%, 
+                                                        #702963 100%) 1;
             > em
             {
                margin-right:              5px;
@@ -217,101 +215,9 @@ p:has( > b:first-child:only-child ) + ul
 }
 
 
-.SingleLineUL > li
-{
-   margin-bottom:             12px;
-}
-
-
-.DemocraticUL > li, .DemocraticLI
-{
-   text-align:               left;
-   hyphens:                  none;
-}
-
-
 li > h4
 {
    line-height:               1.4em;
 }
 
 
-
-/*
-      Following CSS definitions restyle and fix the unnecessary 
-      issues “they” are introducing in my About Me Page section of the 
-      blog.
-*/
-
-p[role]
-{
-   word-break:               break-all;
-}
-
-
-.svg-icon-24, .svg-icon-24-button
-{
-   cursor:						pointer;
-   height:						24px;
-   width:						24px;
-   min-width:					24px;
-}
-
-
-/*
-         Sharing Menu Styling.
-         Following CSS declarations deal with the styling of 
-         the drop-down Sharing Menu. 
-*/
-ul[id = "SharingButton"]
-{
-   width:                     320px;
-   height:                    375px;
-   background-color:          #61281C;
-   border:                    6px Solid #555555;
-   padding-top:               0;
-
-   > li 
-   {
-      height:                       auto;
-      margin:                       0;
-      border-top:                   4px Solid #444444;
-
-      &:hover
-      {
-         background-color:          #3b1811;
-         cursor:                    pointer;
-      }
-
-      :first-of-type
-      {
-         border-top:                none;
-      }
-
-      & svg
-      {
-         left:                      25px;
-         position:                  relative;
-         top:                       5px;
-         stroke:                    #B9B9B9;
-         fill:                      #B9B9B9;
-      }
-   }
-
-   > li:first-child
-   {
-      border-top:                none;
-   }
-
-   > li:last-child
-   {
-      border-bottom:             4px solid #444444;
-   }
-
-   > li:nth-child(5)
-   {
-      border-bottom:             4px solid #444444;
-   }
-}
-
-/*   End of Drop Down Menu Styling. */
