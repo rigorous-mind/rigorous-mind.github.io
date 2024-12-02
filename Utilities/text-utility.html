@@ -1,1 +1,81 @@
 
+
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <meta charset = "UTF-8">
+      <meta name    = "author"				
+            content = "Irfan">
+      <meta name    = "description"		
+            content = "Text Processing Utilities to 
+	               expedite certain tasks.">
+
+      <title>Tiny Text Processor: Accelerate Your Text Processing</title>
+
+      <link rel   = "stylesheet"
+	    type  = "text/css"
+	    href  = "ProcessorCoreStyles.css" />
+
+      <script type = "text/javascript"
+	      src  = "TextProcessorCoreFunc.js"></script>
+   </head>
+   <body>
+     <header>
+	<h1>
+           Text Processor: Let the Device Chip In — Beta
+        </h1>
+        <p id = "ReadMe">
+            Press <span>⌘</span><span>Ctrl</span> + R to read <a href = "Readme.htm"><u>R</u>elease Notes</a>
+        </p>
+     </header>
+     <main>
+	<textarea id = "Unprocessed" tabindex = "1"  
+		  autofocus = "true"
+	          placeholder = "The application allows users to markup their text without any further typing. However, it has some prerequisites: 
+
+1. You will have to enter at least two lines, or independent paragraphs, for any of the options to generate a result. 
+
+2. Just paste the text into the textarea, and press your keyboard’s Tab button. The focus will switch to Options button; press the enter key, and you will have all of the options in front of you. 
+
+3. Without at least two independent lines of paragraphs of text, it will not produce any results."></textarea>
+		
+         <!-- 
+               Extensible HTML: menu and menuitems 
+               Use querySelector to get the menu and then attach event handlers.                 
+         -->
+	<menu role = "button" tabindex = "2" id = "MenuButtons">
+           <p>Options</p>
+	   <menuitems>
+              <button id = "PDFTextPart" role = "menuitem"
+                      data-unprefixed = "false">
+                  <!-- Create <u>M</u>arked Up Doc Partial -->
+                  Partial <u>M</u>arked Up Doc 
+              </button>
+	      <button id = "PDFTextComp" role = "menuitem"
+                       data-unprefixed = "false">
+                  <!-- Create Marked Up Doc <u>C</u>omplete -->
+                  <u>C</u>omplete Marked Up Doc 
+              </button>
+	      <button id = "RemoveJS"	role = "menuitem"	
+               		  data-unprefixed = "false">
+                 <u>R</u>emove JS
+              </button>
+	      <button id = "PurgeHTMLDoc"		
+		      role = "menuitem" data-unprefixed = "false">
+                  <u>P</u>urge HTML Document
+              </button>
+              <button id = "BlogrollItem"		
+                       role = "menuitem">
+                 Markup <u>B</u>logroll Item
+              </button>
+	  </menuitems>
+	</menu>
+     </main>
+     <div id = "PageCover">
+       <p id = "SelectAll">
+          Press <span>⌘</span><span>Ctrl</span> + A to copy the entire formatted contents in the clipboard. </a>
+       </p> 
+       <textarea id = "ProcessedOutput" ></textarea>
+     </div>
+   </body>
+</html>	
