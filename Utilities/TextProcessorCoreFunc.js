@@ -175,16 +175,12 @@ function MonitorAppClicks ( evCurr )
          evCurr.preventDefault ( );
          window.location.href = "https://rigorous-mind.github.io";
       }
+      else if ( iCurrKeyCode == 104 )
+      {
+         window.location.href = "https://rigorous-mind.github.io";
+      }
    }  // document.activeElement.tagName;
-   else if ( iCurrKeyCode == 104 && 
-             ( 
-                document.activeElement.tagName !== "textarea" &&
-                document.activeElement.tagName !== "menu"
-             )
-           )
-    {
-       window.location.href = "https://rigorous-mind.github.io";
-    }
+
 }
 
 
