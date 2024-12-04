@@ -61,10 +61,10 @@ function ManageUserInteraction ( evCurr )
                                                77 for M in Markup 
                                                for PDF Text. */
                        67 : "PDFTextComp",  /* Capturing C here. */
-							  82 : "RemoveJS", 
-							  80 : "PurgeHTMLDoc",
+		       82 : "RemoveJS", 
+		       80 : "PurgeHTMLDoc",
                        66 : "BlogrollItem"
-						  };
+			 };
 
 	var elActive = document.activeElement;
 
@@ -168,7 +168,7 @@ function MonitorAppClicks ( evCurr )
       {
          evCurr.stopPropagation ( );
          evCurr.preventDefault ( );
-         window.location.href = "https://rigorous-mind.github.io/readme.html";
+         window.location.href = "https://rigorous-mind.github.io/pages/readme.html";
       }
       else if ( iCurrKeyCode == 72 )
       {
