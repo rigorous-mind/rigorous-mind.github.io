@@ -157,6 +157,7 @@ function MonitorAppClicks ( evCurr )
    console.log ( evCurr.keyCode );
    console.log ( evCurr.shiftKey );
    console.log ( evCurr.altKey );
+
    var iCurrKeyCode = evCurr.keyCode; 
 
    evCurr.stopPropagation ( );
@@ -177,6 +178,7 @@ function MonitorAppClicks ( evCurr )
       }
       else if ( iCurrKeyCode == 104 )
       {
+         console.log ( "Entering the Load Home Page section." );
          window.location.href = "https://rigorous-mind.github.io";
       }
    }  // document.activeElement.tagName;
