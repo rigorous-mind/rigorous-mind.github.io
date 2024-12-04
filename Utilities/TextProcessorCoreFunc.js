@@ -154,9 +154,12 @@ function ManageUserInteraction ( evCurr )
 
 function MonitorAppClicks ( evCurr )
 {
+   alert ( "Entering the Load Home Page section." );
+	
    console.log ( evCurr.keyCode );
    console.log ( evCurr.shiftKey );
    console.log ( evCurr.altKey );
+	
    alert ( "Entering the Load Home Page section." );
    
    var iCurrKeyCode = evCurr.keyCode; 
