@@ -22,7 +22,7 @@ function Initialize ( )
 
 	AttachHandlers ( );
 
-   if ( window.location.href == "https://text-processor.w3spaces.com/" )
+   if ( window.location.href == "https://rigorous-mind.github.io/utilities/text-utility.html" )
    {
       var elReadMe = document.getElementById ( "ReadMe" ),
          elSpanMac = elReadMe.getElementsByTagName( "span" );
@@ -154,14 +154,11 @@ function ManageUserInteraction ( evCurr )
 
 function MonitorAppClicks ( evCurr )
 {
-   alert ( "Entering the Load Home Page section." );
-	
    console.log ( evCurr.keyCode );
    console.log ( evCurr.shiftKey );
    console.log ( evCurr.altKey );
-	
    alert ( "Entering the Load Home Page section." );
-   
+
    var iCurrKeyCode = evCurr.keyCode; 
 
    evCurr.stopPropagation ( );
