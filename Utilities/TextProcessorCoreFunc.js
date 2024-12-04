@@ -2,12 +2,12 @@
 
 document.addEventListener ( "DOMContentLoaded", Initialize, false );
 
-var elMenu 			= null, 
-	 elMenuBtn	   = null,
-	 elTextarea 	= null,
-    strMarkedupText = "",
-    iPrevKeyCode = 0,
-    iCurrKeyCode = 0; 
+var elMenu 	     = null, 
+    elMenuBtn	     = null,
+    elTextarea 	     = null,
+    strMarkedupText  = "",
+    iPrevKeyCode     = 0,
+    iCurrKeyCode     = 0; 
 
 function Initialize ( )
 {
