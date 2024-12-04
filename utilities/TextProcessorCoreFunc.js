@@ -2,21 +2,18 @@
 
 document.addEventListener ( "DOMContentLoaded", Initialize, false );
 
-var elMenu 			= null, 
-	 elMenuBtn	   = null,
-	 elTextarea 	= null,
-    strMarkedupText = "",
-    iPrevKeyCode = 0,
-    iCurrKeyCode = 0; 
+var elMenu 	         = null, 
+    elMenuBtn	      = null,
+    elTextarea 	   = null,
+    strMarkedupText  = "",
+    iPrevKeyCode     = 0,
+    iCurrKeyCode     = 0; 
 
 function Initialize ( )
 {
    window.addEventListener ( 'keydown', MonitorAppClicks );
-   console.log ( "Attaching Keydown event handler with MonitorAppClicks" );
-
-   console.log ( "Attaching Events To Meun Buttons." );
-
    elMenuBtn = document.getElementById ( "MenuButtons" );
+
    if ( elMenuBtn != null )
    {
       elMenu 	  	= elMenuBtn.querySelector ( "menuitems" );
@@ -25,7 +22,7 @@ function Initialize ( )
 
 	AttachHandlers ( );
 
-   if ( window.location.href == "https://text-processor.w3spaces.com/" )
+   if ( window.location.href == "https://rigorous-mind.github.io/utilities/text-utility.html" )
    {
       var elReadMe = document.getElementById ( "ReadMe" ),
          elSpanMac = elReadMe.getElementsByTagName( "span" );
@@ -160,24 +157,34 @@ function MonitorAppClicks ( evCurr )
    console.log ( evCurr.keyCode );
    console.log ( evCurr.shiftKey );
    console.log ( evCurr.altKey );
+   alert ( "Entering the Load Home Page section." );
+
+   var iCurrKeyCode = evCurr.keyCode; 
 
    evCurr.stopPropagation ( );
 
    if ( evCurr.ctrlKey == true || evCurr.metaKey == true )
    {
-      if ( evCurr.keyCode == 82 )
+      if ( iCurrKeyCode == 82 )
       {
          evCurr.stopPropagation ( );
          evCurr.preventDefault ( );
-         window.location.href = "https://text-processor.w3spaces.com/readme.html";
+         window.location.href = "https://rigorous-mind.github.io/readme.html";
       }
-      else if ( evCurr.keyCode == 72 )
+      else if ( iCurrKeyCode == 72 )
       {
          evCurr.stopPropagation ( );
          evCurr.preventDefault ( );
-         window.location.href = "https://text-processor.w3spaces.com";
+         window.location.href = "https://rigorous-mind.github.io";
       }
-   }
+      else if ( iCurrKeyCode == 104 )
+      {
+         alert ( "Entering the Load Home Page section." );
+         console.log ( "Entering the Load Home Page section." );
+         window.location.href = "https://rigorous-mind.github.io";
+      }
+   }  // document.activeElement.tagName;
+
 }
 
 
